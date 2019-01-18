@@ -1,0 +1,66 @@
+
+body {
+  font-family: sans-serif;
+  background-color: Gray;
+}
+
+p {
+  color: DarkSalmon;
+}
+
+h1 {
+  color: DarkSalmon;
+  padding-left: 50px;
+}
+
+h2 {
+  color: DarkSalmon;
+}
+
+a {
+  color: LightBlue;
+}
+
+ul {
+  color: DarkSalmon;
+}
+
+div {
+  border-width: 10px;
+  border-color: LightBlue;
+  border-style: dotted;
+  padding: 20px;
+  padding-top: 5px;
+  background-color: linen;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+img {
+  border: lemonchiffon 5px dotted;
+}
+
+#favorite_band{
+  font-size: 25px;
+}
+
+#favorite_movie{
+  font-size: 25px;
+}
+
+#middle {
+  border-width: 10px;
+  border-color: lemonchiffon;
+  border-style: dotted;
+  padding: 20px;
+  padding-top: 5px;
+  background-color: papayawhip;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.fav {
+  color: palevioletred;
+  font-style: italic;
+
+}
