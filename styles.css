@@ -25,7 +25,7 @@ ul {
   color: DarkSalmon;
 }
 
-div {
+.favorite-section {
   border-width: 10px;
   border-color: LightBlue;
   border-style: dotted;
@@ -48,7 +48,7 @@ img {
   font-size: 25px;
 }
 
-#middle {
+/* #middle {
   border-width: 10px;
   border-color: lemonchiffon;
   border-style: dotted;
@@ -57,7 +57,7 @@ img {
   background-color: papayawhip;
   margin-left: 40px;
   margin-right: 40px;
-}
+} */
 
 .fav {
   color: palevioletred;
