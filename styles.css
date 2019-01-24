@@ -13,7 +13,8 @@ h1 {
   padding-left: 50px;
 }
 
-h2 {
+.section-header {
+  font-size: 40px;
   color: DarkSalmon;
 }
 
@@ -36,31 +37,57 @@ ul {
   margin-right: 40px;
 }
 
-img {
-  border: lemonchiffon 5px dotted;
+.favorite-image {
+  border: lemonchiffon 10px dotted;
+  border-radius: 20px;
+  opacity: 0.8;
 }
 
-#favorite_band{
+div.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px, 20px, 0 rgba(0, 0, 0, 0.219);
+  margin-bottom: 25px;
+}
+div.container {
+  text-align: center;
+  padding: 10px, 20px;
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%; */
+}
+
+#favorite-band{
   font-size: 25px;
+  color: darkcyan;
+  font-style: bold;
 }
 
-#favorite_movie{
+#favorite-movie{
   font-size: 25px;
+  color: gray;
+  font-style: italic;
 }
 
-/* #middle {
-  border-width: 10px;
-  border-color: lemonchiffon;
-  border-style: dotted;
-  padding: 20px;
-  padding-top: 5px;
-  background-color: papayawhip;
-  margin-left: 40px;
-  margin-right: 40px;
-} */
+#most-favorite-food {
+  font-style: bold;
+}
 
 .fav {
   color: palevioletred;
   font-style: italic;
-
 }
+
+table {
+  border-style: solid;
+  border-color: goldenrod;
+  border-width: 5px;
+}
+th {
+  color: darkblue;
+}
+td {
+  color: blueviolet;
+}
+
